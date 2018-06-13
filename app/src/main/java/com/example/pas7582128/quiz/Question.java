@@ -7,7 +7,7 @@ package com.example.pas7582128.quiz;
 public class Question {
     private int mTextResId;
     private boolean mAnswerTrue;
-    private Question(int textResId,boolean answerTrue){
+    public Question(int textResId,boolean answerTrue){
         mTextResId=textResId;
         mAnswerTrue=answerTrue;
     }
